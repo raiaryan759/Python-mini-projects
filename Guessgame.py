@@ -33,6 +33,8 @@ if level == "medium":
         else:
             print("Too high! Try again.")
         attempts -= 1
+    print(f"The guess was {number}")
+
 
 if level == "hard":
     number = random.randint(1, 200)
@@ -48,3 +50,5 @@ if level == "hard":
         else:
             print("Too high! Try again.")
         attempts -= 1
+    print(f"The guess was {number}")
+
